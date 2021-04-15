@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employee</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employees</value>
+    </caseValues>
+    <layouts>
+        <layout>Emp non technical layout</layout>
+        <sections>
+            <label></label>
+            <section>Address Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Department Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employee Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Salary Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Employee Layout</layout>
+        <sections>
+            <label></label>
+            <section>Address Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Department Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Employee Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Salary Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Non_technical</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Technical</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Age</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Age_should_be_greater_than_18</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Last_working_date_cannot_be_greater_JD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Resignation_date_cannot_be_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SSN_number_should_not_be_greater_than_10</name>
+    </validationRules>
+</CustomObjectTranslation>

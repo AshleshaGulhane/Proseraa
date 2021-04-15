@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Case Queue with 2 users</name>
+    <queueMembers>
+        <users>
+            <user>ashlesha@proseraa.com</user>
+            <user>ashlesha@securitylevel.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

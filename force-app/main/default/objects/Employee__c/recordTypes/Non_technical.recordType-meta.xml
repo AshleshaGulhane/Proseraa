@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_technical</fullName>
+    <active>true</active>
+    <label>Non-technical</label>
+    <picklistValues>
+        <picklist>City__c</picklist>
+        <values>
+            <fullName>Bhopal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gandhi Nagar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guntur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyderabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mumbai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pune</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Education__c</picklist>
+        <values>
+            <fullName>B tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Experience_in_Non_Technical_field__c</picklist>
+        <values>
+            <fullName>0-1 years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-3 years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-5 years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 yrs above</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fresher</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Skills__c</picklist>
+        <values>
+            <fullName>HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Planning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>States__c</picklist>
+        <values>
+            <fullName>Andhra Pradesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gujarat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maharashtra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telangana</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

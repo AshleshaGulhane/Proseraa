@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Is_Active__c =true,
+IMAGE(&quot;/servlet/servlet.FileDownload?file=0155g000000HJur&quot;,&quot;Employee is Active&quot;,30,30),
+
+IF(Is_on_Notice_Period__c=true,
+IMAGE(&quot;/servlet/servlet.FileDownloadfile=0155g000000HJvB&quot;,&quot;Employee is Active but on Notice Period&quot;,30,30),
+
+IF(Is_on_Notice_Period__c = false,
+IMAGE(&quot;/servlet/servlet.FileDownload?file=0155g000000HJv6&quot;,&quot;Employee is inactive&quot;,30,30),
+
+IF(Is_Active__c  = false,
+IMAGE(&quot;/servlet/servlet.FileDownload?file=0155g000000HJv6&quot;,&quot;Employee is inactive&quot;,30,30),Null))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

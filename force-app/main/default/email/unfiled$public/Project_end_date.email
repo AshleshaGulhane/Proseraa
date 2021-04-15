@@ -1,0 +1,4 @@
+Reminder-Project end date is {!Project_Details__c.End_Date__c}
+
+Regards,
+ABC

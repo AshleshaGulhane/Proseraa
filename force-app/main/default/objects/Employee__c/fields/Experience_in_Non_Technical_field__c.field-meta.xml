@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Experience_in_Non_Technical_field__c</fullName>
+    <externalId>false</externalId>
+    <label>Experience in Non-Technical field</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fresher</fullName>
+                <default>false</default>
+                <label>Fresher</label>
+            </value>
+            <value>
+                <fullName>6 months</fullName>
+                <default>false</default>
+                <label>6 months</label>
+            </value>
+            <value>
+                <fullName>0-1 years</fullName>
+                <default>false</default>
+                <label>0-1 years</label>
+            </value>
+            <value>
+                <fullName>1-3 years</fullName>
+                <default>false</default>
+                <label>1-3 years</label>
+            </value>
+            <value>
+                <fullName>3-5 years</fullName>
+                <default>false</default>
+                <label>3-5 years</label>
+            </value>
+            <value>
+                <fullName>5 yrs above</fullName>
+                <default>false</default>
+                <label>5 yrs above</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

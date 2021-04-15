@@ -1,0 +1,2 @@
+A big deal has been created with amount {!Opportunity.Amount} and 
+Opportunity stage  {!Opportunity.StageName}

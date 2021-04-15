@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salary_Credited_till_Date__c</fullName>
+    <externalId>false</externalId>
+    <label>Salary Credited till Date</label>
+    <summarizedField>Salary_Details__c.Gross_Salary__c</summarizedField>
+    <summaryForeignKey>Salary_Details__c.Credited_to_emp__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

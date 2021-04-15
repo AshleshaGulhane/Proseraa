@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>Employee__c</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Payroll System</label>
+    <logo>Images/Payroll_logo.png</logo>
+    <tabs>standard-Contact</tabs>
+    <tabs>Department__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Salary_Details__c</tabs>
+    <tabs>Client__c</tabs>
+    <tabs>Project_Details__c</tabs>
+    <tabs>Role__c</tabs>
+    <tabs>A__c</tabs>
+    <tabs>B__c</tabs>
+    <tabs>C__c</tabs>
+    <tabs>Logs__c</tabs>
+    <tabs>SalesHeader__c</tabs>
+    <tabs>EFT_Transaction_Status__c</tabs>
+</CustomApplication>

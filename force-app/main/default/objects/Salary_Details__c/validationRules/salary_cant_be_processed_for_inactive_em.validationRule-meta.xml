@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>salary_cant_be_processed_for_inactive_em</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( Credited_to_emp__r.Is_Active__c =false  &amp;&amp;  Credited_to_emp__r.Is_on_Notice_Period__c =false,true,false)</errorConditionFormula>
+    <errorMessage>Salary cannot be processed for inactive employee</errorMessage>
+</ValidationRule>
